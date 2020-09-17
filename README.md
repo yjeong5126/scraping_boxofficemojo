@@ -1,4 +1,4 @@
-# scraping_boxofficemojo
+# Scraping Box Office Info with Scrapy
 > Scraping the Box Office Mojo website with Scrapy
 
 ## The Web Page for Scraping
