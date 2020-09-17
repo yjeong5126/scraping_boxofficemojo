@@ -1,12 +1,18 @@
-# scraping_boxofficemojo
+# Scraping Box Office Info with Scrapy
 > Scraping the Box Office Mojo website with Scrapy
 
-## The Web Page for Scraping
-The goal of this project is to check all the movies released in the US during certain periods of time and extract useful information about the individual movies. If you check any movie through the Box Office Mojo, you can see all the related information about the movie like the following format:
+## The Goal of this Project
+The goal of this project is to show the process of scraping web pages using Scrapy in Python. The web site scraped in this project is boxofficemojo.com. Especially, I check all the movies released in the US during certain periods of time and extract useful information about the individual movies. 
+
+For each movie, you will see the page as follows:
 
 ![](https://github.com/yjeong5126/scraping_boxofficemojo/blob/master/images/1.PNG)
 
-The elements that I am interested in are ‘Domestic Revenues’, ‘Worldwide Revenues’, ‘Distributor’, ‘Opening’, ‘Budget’, ‘MPAA’, ‘Genres’, and ‘In Release’. So, we will extract this information for the individual movies.
+The elements that I scrape here are ‘Domestic Revenues’, ‘Worldwide Revenues’, ‘Distributor’, ‘Opening’, ‘Budget’, ‘MPAA’, ‘Genres’, and ‘In Release’.
+
+## How to Run this Project
+- Install Python 3.
+- Install the Python requirements with ```pip install -r requirements.txt```.
 
 ## Creating a New Project
 Once you finished installing Scrapy on your python, let’s create a new project for scraping the web. Open a command line and go to the folder that you want to put your project into. Then, type this:
