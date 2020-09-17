@@ -4,11 +4,7 @@
 ## The Goal of this Project
 The goal of this project is to show the process of scraping web pages using Scrapy in Python. The web site scraped in this project is boxofficemojo.com. Especially, I check all the movies released in the US during certain periods of time and extract useful information about the individual movies. 
 
-For each movie, you will see the page as follows:
-
-![](https://github.com/yjeong5126/scraping_boxofficemojo/blob/master/images/1.PNG)
-
-The elements that I scrape here are ‘Domestic Revenues’, ‘Worldwide Revenues’, ‘Distributor’, ‘Opening’, ‘Budget’, ‘MPAA’, ‘Genres’, and ‘In Release’.
+For each movie, the elements that I scrape here are ‘Domestic Revenues’, ‘Worldwide Revenues’, ‘Distributor’, ‘Opening’, ‘Budget’, ‘MPAA’, ‘Genres’, and ‘In Release’.
 
 ## How to Run this Project
 - Install Python 3.
