@@ -10,6 +10,10 @@ For each movie, you will see the page as follows:
 
 The elements that I scrape here are ‘Domestic Revenues’, ‘Worldwide Revenues’, ‘Distributor’, ‘Opening’, ‘Budget’, ‘MPAA’, ‘Genres’, and ‘In Release’.
 
+## How to Run this Project
+- Install Python 3.
+- Install the Python requirements with ```pip install -r requirements.txt```.
+
 ## Creating a New Project
 Once you finished installing Scrapy on your python, let’s create a new project for scraping the web. Open a command line and go to the folder that you want to put your project into. Then, type this:
 ```
