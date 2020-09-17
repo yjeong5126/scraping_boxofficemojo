@@ -11,7 +11,7 @@ For each movie, the elements that I scrape here are ‘Domestic Revenues’, ‘
 - Install the Python requirements with ```pip install -r requirements.txt```.
 - Open a command line and go to the folder that you want to put your project into.
 - Type this in the command line: ```C:\...> scrapy startproject boxofficeinfo```. A new folder named ```boxofficeinfo``` is automatically created in the folder where you typed ```scrapy startproject ...```.
-- Open the file ```items.py```, ```pipelines.py```, and ```settings.py``` that were just created by the command in the previous step. Replace the contents in those files for the contents in the files  ```items_contents.py```, ```pipelines_contents.py```, and ```settings_contents.py```, respectively.
+- Open the file ```items.py```, ```pipelines.py```, and ```settings.py``` that were automatically created with a text editor. Replace the contents in those files for the contents in the files  ```items_contents.py```, ```pipelines_contents.py```, and ```settings_contents.py```, respectively.
 - Download and Save ```boxofficeinfo_spider.py``` into the ```spiders``` folder in the ```boxofficeinfo``` folder. 
 - Naviate to ```boxofficeinfo``` directory in the command line. Then, type ```scrapy crawl Boxofficeinfo```.
 - Check that ```boxoffice2017_2019.csv``` is created in the ``boxofficeinfo``` folder
