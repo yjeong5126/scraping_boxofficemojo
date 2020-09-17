@@ -4,15 +4,17 @@
 ## The Goal of this Project
 The goal of this project is to show the process of scraping web pages using Scrapy in Python. The web site scraped in this project is boxofficemojo.com. Especially, I check all the movies released in the US during certain periods of time and extract useful information about the individual movies. 
 
-For each movie, you will see the page as follows:
-
-![](https://github.com/yjeong5126/scraping_boxofficemojo/blob/master/images/1.PNG)
-
-The elements that I scrape here are ‘Domestic Revenues’, ‘Worldwide Revenues’, ‘Distributor’, ‘Opening’, ‘Budget’, ‘MPAA’, ‘Genres’, and ‘In Release’.
+For each movie, the elements that I scrape here are ‘Domestic Revenues’, ‘Worldwide Revenues’, ‘Distributor’, ‘Opening’, ‘Budget’, ‘MPAA’, ‘Genres’, and ‘In Release’.
 
 ## How to Run this Project
 - Install Python 3.
 - Install the Python requirements with ```pip install -r requirements.txt```.
+- Open a command line and go to the folder that you want to put your project into.
+- Type this in the command line: ```C:\...> scrapy startproject boxofficeinfo```. A new folder named ```boxofficeinfo``` is automatically created in the folder where you typed ```scrapy startproject ...```.
+- Open the file ```items.py```, ```pipelines.py```, and ```settings.py``` that were automatically created with a text editor. Replace the contents in those files for the contents in the files  ```items_contents.py```, ```pipelines_contents.py```, and ```settings_contents.py```, respectively.
+- Download and Save ```boxofficeinfo_spider.py``` into the ```spiders``` folder in the ```boxofficeinfo``` folder. 
+- Naviate to ```boxofficeinfo``` directory in the command line. Then, type ```scrapy crawl Boxofficeinfo```.
+- Check that ```boxoffice2017_2019.csv``` is created in the ``boxofficeinfo``` folder
 
 ## Creating a New Project
 Once you finished installing Scrapy on your python, let’s create a new project for scraping the web. Open a command line and go to the folder that you want to put your project into. Then, type this:
